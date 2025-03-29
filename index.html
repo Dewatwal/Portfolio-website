@@ -11,25 +11,29 @@
     <link rel="stylesheet" href="styles/navbar.css">
     <link rel="stylesheet" href="styles/header.css">
     <link rel="stylesheet" href="styles/about.css">
+    <link rel="stylesheet" href="styles/projects.css">
+    <link rel="stylesheet" href="styles/contact.css">
 </head>
 <body>
+
+    <!-- navbar  -->
     <nav class="navbar">
         <div class="logo">
             <a href="#">Deepak Dewatwal</a>
         </div>
         <ul class="nav-links">
-            <li><a href="#">HOME</a></li>
-            <li><a href="#">ABOUT</a></li>
-            <li><a href="#">RESUME</a></li>
-            <li><a href="#">PROJECTS</a></li>
-            <li><a href="#">CONTACT</a></li>
+            <li><a class="tg_remove"  href="#home">HOME</a></li>
+            <li><a class="tg_remove" href="#about">ABOUT</a></li>
+            <li><a class="tg_remove" href="#projects">PROJECTS</a></li>
+            <li><a class="tg_remove" href="#resume">RESUME</a></li>
+            <li><a class="tg_remove" href="#contact">CONTACT</a></li>
         </ul>
         <div class="burger">
           <div class="ham"><i class="fa-solid fa-bars" ></i></div> 
         </div>
     </nav>
-<!-- 111111111111111111111111111111111 -->
-    <div class="header">
+<!-- header -->
+    <div id="home" class="header" >
        <div class="main_div">
         <div class="text">
             <div class="h1">
@@ -44,11 +48,22 @@
         </div>
        </div>
         </div>
+<!-- about -->
 
-    <div class="about"></div>
+
+    <div id="about" class="about_me">
+        <h1>what about me</h1>
+    </div>
+    <!-- projects -->
+     <div id="projects" class="project">
+        <h1>myprojects</h1>
+     </div>
+     <!-- contact -->
+      <div id="contact" class="contact">
+        <h1>my number</h1>
+      </div>
     
-    <script src="js/navbar.js"></script>
-    <script src="js/header.js"></script>
-    <script src="js/about.js"></script>
+    <script src="js/main.js"></script>
+    
 </body>
 </html>
