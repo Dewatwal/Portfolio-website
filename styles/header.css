@@ -1,0 +1,86 @@
+.header{
+  background: #232323;
+  width: 100%;
+  height: 100vh;
+}
+.main_div{
+  display: flex;
+  position: absolute;
+  left: 5%;
+  top: 25%;
+  /* background: greenyellow; */
+  width: 90%;
+  height: 50vh;
+}
+.text{
+  width: 100%;
+  /* background: red; */
+  text-align: center;
+}
+.image{
+  width: 100%;
+  /* background: #9f4952; */
+}
+.h1{
+  width: 100%;
+  height: 50%;
+  background: #232323;
+  font-size: larger;
+  text-align: center;
+  color: #FFFFFF;
+}
+.name{
+ color: #55e6a5; 
+}
+.p{
+  width: 100%;
+  height: 50%;
+  /* background: pink; */
+  color: #FFFFFF;
+}
+.p p{
+  font-size: x-large;
+}
+.image img{
+  position: relative;
+  left: 30%;
+  top: 0%;
+}
+
+
+
+@media (max-width : 768px){
+  .main_div{
+    position: absolute;
+    top: 20%;
+    flex-direction: column;
+    height: 80vh;
+  }
+  .text{
+    height: 50%;
+  }
+   .image img{
+    position: static;
+   }
+  .image {
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+  .p{
+    padding-top: 40px;
+  }
+  .p p{
+    font-size: large;
+  }
+  
+
+}
+
+.about{
+  background-color: red;
+  width: 100%;
+  height: 100vh;
+  }
