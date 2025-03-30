@@ -79,21 +79,22 @@
 
 .form-group input,
 .form-group textarea {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   width: 100%;
   padding: 10px 0;
   font-size: 1rem;
   border: none;
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid #666;
   outline: none;
   background: transparent;
   transition: all 0.3s ease;
+  color: #FFFFFF;
 }
 
 .form-group textarea {
   resize: vertical;
   min-height: 100px;
 }
-
 .form-group label {
   position: absolute;
   top: 10px;
@@ -104,16 +105,6 @@
   transition: all 0.3s ease;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
-.form-group input:focus ~ label,
-.form-group input:valid ~ label,
-.form-group textarea:focus ~ label,
-.form-group textarea:valid ~ label {
-  top: -20px;
-  font-size: 0.8rem;
-  color: #55e6a5;
-}
-
 .form-group input:focus,
 .form-group textarea:focus {
   border-bottom-color: #55e6a5;
