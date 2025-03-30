@@ -96,6 +96,7 @@
   font-weight: bolder;
   transition: all 0.25s ease;
   cursor: pointer;
+  color: #FFFFFF;
 }
 
 .aboutcontent_acc:hover {

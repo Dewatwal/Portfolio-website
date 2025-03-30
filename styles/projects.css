@@ -66,7 +66,7 @@
 
 .placeholder-image {
   text-align: center;
-  color: var(--primary-color);
+  color: rgba(83, 247, 173, 0.396);
 }
 
 .placeholder-image i {
@@ -82,7 +82,8 @@
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 1.1rem;
   margin-bottom: 8px;
-  color: var(--primary-color);
+  color: rgba(83, 247, 173, 0.396);
+
 }
 
 .project-info p {
@@ -103,6 +104,7 @@
   border-radius: 12px;
   font-size: o.7rem;
   font-weight: 500;
+  color: rgba(83, 247, 173, 0.396);
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
