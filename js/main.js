@@ -38,3 +38,8 @@ const instagram = document.querySelector(".instagram");
 instagram.addEventListener("click",()=>{
   window.open('https://www.instagram.com/deepak__prajapat08');
 })
+
+const resume = document.querySelector("#resume");
+resume.addEventListener("click",()=>{
+  window.open('https://drive.google.com/file/d/1W9ohZTrwKOjMM7MEjk3CBJl4RRkG34Da/view?usp=sharing');
+})
