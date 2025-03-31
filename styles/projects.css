@@ -53,9 +53,7 @@
   transition: transform 0.2s ease;
 }
 
-.project-card:hover {
-  transform: translateY(-20px) scale(1.1);
-}
+
 
 .project-image {
   height: 140px;
@@ -109,7 +107,11 @@
   color: rgba(83, 247, 173, 0.396);
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
+@media (min-width:900px){
+  .project-card:hover {
+    transform: translateY(-20px) scale(1.1);
+  }
+}
 /* Responsive Adjustments */
 @media (max-width: 768px) {
   .projects-grid {
