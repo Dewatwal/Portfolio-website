@@ -58,7 +58,7 @@
 
 .project-image {
   height: 140px;
-  background-color: #f5f7fa;
+  background-color: #666;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -75,6 +75,7 @@
 }
 
 .project-info {
+  color: #EEEEEE;
   padding: 15px;
 }
 
