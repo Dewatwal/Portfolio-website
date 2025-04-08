@@ -41,5 +41,5 @@ instagram.addEventListener("click",()=>{
 
 const resume = document.querySelector("#resume");
 resume.addEventListener("click",()=>{
-  window.open('https://drive.google.com/file/d/1W9ohZTrwKOjMM7MEjk3CBJl4RRkG34Da/view?usp=sharing');
+  window.open('https://drive.google.com/file/d/1622YJl_exiYgm-wVzuDhqV0Yut2pHcGG/view?usp=sharing');
 })
